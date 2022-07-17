@@ -1,0 +1,62 @@
+.card {
+  border-radius: 4px;
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 12px 16px;
+  width: 282px;
+  height: 110px;
+  gap: 8px;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  border: 1px solid #e16259;
+}
+
+.gender {
+  width: 46px;
+  height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+.name {
+  max-width: 250px;
+  max-height: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: left;
+  line-height: 135%;
+  color: #000000;
+}
+
+.email {
+  max-width: 177px;
+  height: 23px;
+  font-family: "Roboto";
+  font-style: normal;
+  text-align: left;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  color: #e16259;
+}
+
+.cardSelect {
+  background-color: #a259ff;
+}
+
+.btn {
+  border: none;
+  background-color: whitex;
+}

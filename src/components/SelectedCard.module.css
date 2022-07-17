@@ -1,0 +1,72 @@
+.main {
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  width: 990px;
+  height: 250px;
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.image {
+  position: absolute;
+  border-radius: 120px;
+  width: 128px;
+  height: 128px;
+  left: 95px;
+}
+
+.gender {
+  width: 46px;
+  height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: capitalize;
+}
+
+.info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  left: 287px;
+  top: 55px;
+}
+
+.name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: -1.85px;
+  text-decoration: underline solid 3px;
+  color: #e16259;
+  max-width: 600px;
+  height: 64px;
+}
+
+.address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 145%;
+  max-width: 588px;
+}
+
+.street {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 145%;
+  color: #a259ff;
+}
